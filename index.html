@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<title>Layout Application</title>
+<style>
+#top {
+	margin-left: 300px;
+	text-align: center;
+}
+
+#div1 {
+	width: 65%;
+	background-color: silver;
+	padding: 2%
+}
+
+#div2 {
+	width: 40%;
+	margin-left: 30%;
+}
+
+#div3 {
+	width: 80%;
+	margin-left: 9%;
+}
+
+#package {
+	width: 100%;
+	margin-left: -237px
+}
+</style>
+</head>
+<body style="background-color: gray;">
+	<div id="top">
+		<h3 style="margin-right: 250px; color: white;">Country Club
+			Registration!!!</h3>
+		<form action="sturl" method="get">
+			<div id="div1">
+				<h4>SignUp!!</h4>
+				<div id="div2">
+					<div class="form-group">
+						<input type="text" name="name" class="form-control"
+							placeholder="Enter Name!!" required="required">
+					</div>
+					<div class="form-group">
+						<input type="text" name="addr" class="form-control"
+							placeholder="Enter Address!!" required="required">
+					</div>
+					<div class="form-group">
+						<input type="text" name="country" class="form-control"
+							placeholder="Enter Country Name" required="required">
+					</div>
+					<div class="form-group">
+						<select class="btn btn-warning" name="hpddl" required="required">
+							<option selected>Select Holiday package!!</option>
+							<option value="100000">Silver(1 lakh)</option>
+							<option value="200000">Gold(2 lakh)</option>
+							<option value="400000">Platinum(4 lakh)</option>
+							<option value="500000">Dimand(5 lakh)</option>
+						</select>
+						<p>Discount 10% for any package!!!</p>
+
+					</div>
+
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Register" class="btn btn-primary"
+						id="div3">
+				</div>
+
+
+			</div>
+			<div class="container" id="package">
+				<h2 style="margin-left: 180px">Offered Products 10% Sales</h2>
+				<div class="container">
+					
+					
+					<div class="card-deck">
+						<div class="card" style="background-color: silver;">
+							<div class="card-body text-center">
+								<h2 class="card-text">Silver</h3>
+								<p class="card-text">10%</p>
+								<p class="card-text">Discount</p>
+							</div>
+						</div>
+						<div class="card" style="background-color: gold;">
+							<div class="card-body text-center">
+								<h2 class="card-text">Gold</h3>
+								<p class="card-text">10%</p>
+								<p class="card-text">Discount</p>
+							</div>
+						</div>
+						<div class="card bg-info" style="background-color: ;">
+							<div class="card-body text-center">
+								<h2 class="card-text">Platinum</h3>
+								<p class="card-text">10%</p>
+								<p class="card-text">Discount</p>
+							</div>
+						</div>
+						<div class="card" style="background-color: dimond;">
+							<div class="card-body text-center">
+								<h2 class="card-text">Dimond</h3>
+								<p class="card-text">10%</p>
+								<p class="card-text">Discount</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>
